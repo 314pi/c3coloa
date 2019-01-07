@@ -1,0 +1,25 @@
+/**
+* @Jentla Flexile is a fresh new template for the Joomla! Administrator Back-end.
+* @copyright Copyright (C) 2010 ZacWare Pty Ltd. http://jentla.com. [^] All rights reserved.
+* @license GNU/GPL, see license.txt
+* Jentla Flexile is free software. you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version or open source software licenses.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*/
+
+body { font-family:Arial, Helvetica, sans-serif; }
+div.header { display:block; position:relative; height:100px; }
+#menu-container { display:block; position:relative; width:700px; margin:0px auto 0px; font-size:11px; }
+#drop_down_menu { display:block; position:absolute; clear:both; margin:0px; padding:0px; text-align:left; list-style-type:none; text-align:center; width:700px; float:none; left:0px; top:0px; }
+#drop_down_menu li { font-size:12px; font-weight:bold; float:left; color:#11a2db; padding:5px; cursor:pointer; background:#333333; width:150px; }
+#drop_down_menu li ul { margin:0px; padding:0px; list-style-type:none; padding-top:10px; }
+#drop_down_menu li ul li { display:block; float:none; clear:both;  }
+#drop_down_menu li ul li a { color:#FFFFFF; font-weight:normal; text-decoration:none; display:block; }
+#drop_down_menu li ul li a:HOVER { text-decoration:underline; color:#CCCCCC;}
+

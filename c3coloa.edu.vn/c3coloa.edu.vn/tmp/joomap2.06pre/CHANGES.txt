@@ -1,0 +1,53 @@
+Joomap Change Log
+-----------------
+
+Version 2.06
+ fixed: Google Sitemaps UTC time bug
+ fixed: strpos() mix up caused additional itemid for links
+ added: XML schema location added to Google Sitemaps output
+
+Version 2.05
+ fixed: Fatal error with PHP 5
+
+Version 2.04
+ added: new languages: Bulgarian, Spanish
+ added: option to create config table if component was installed manually
+ changed: french translation update
+ changed: cleaned up configuration backend
+ fixed: Joomla 1.5 global variables compatibility
+ fixed: Google Sitemap output header set to "Content-type: text/xml"
+ fixed: component admin now saves last open tab
+ fixed: title field in component admin was unnecessary,
+        component title was already taken from menu entry since 2.01
+ fixed: "function returns reference to non-variable" notices
+ fixed: default category and blogsection ordering
+ fixed: blogsection access restrictions
+ fixed: missing sectionid in section's link to category
+ fixed: missing content for blogsections
+ added: option to exclude hidden link to author
+
+Version 2.03
+ added: new languages: french, italian, polish, russian, ukrainian.
+ fixed: support for broken sefRelToAbs() function.
+ fixed: call-time pass-by-reference warning fixed
+
+Version 2.02
+ added: modified dates for static content in google sitemap.
+ added: css style 'background:transparent' for '.sitemap ul li' in joomap.css.
+ added: language/italian.php
+ changed: use create date when content's modified date is '0000-00-00 00:00:00'.
+ fixed: modified date is no longer displayed in Google Sitemap when it's 0.
+
+Version 2.01
+ fixed: menu-title translation issue with JoomFish.
+
+Version 2.00
+ Complete code rewrite of Joomap 1.40 / lots of internal changes
+ changed:
+  configuration is now saved to the database instead of config file.
+  configuration is backed up when component is uninstalled and restored when
+  component is installed again (eg for an upgrade/update).
+ changed: component administration now only available for Site Administrators.
+ added: Google Sitemap support.
+ added: plugin system.
+ added: virtuemart support.

@@ -1,0 +1,160 @@
+/**
+* @Jentla Flexile is a fresh new template for the Joomla! Administrator Back-end.
+* @copyright Copyright (C) 2010 ZacWare Pty Ltd. http://jentla.com. [^] All rights reserved.
+* @license GNU/GPL, see license.txt
+* Jentla Flexile is free software. you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version or open source software licenses.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*/
+
+/* -- Imported styles ----------------------------- */
+
+@import url("general.css");
+
+/* -- Specific styles ----------------------------- */
+
+form  			{ margin: 0px; padding: 0px; }
+form .inputbox  { margin-left: 0px; }
+form br 	    { display: none; }
+.login          { margin: 0 auto; width: 500px; margin-bottom: 30px;padding:20px; 
+}
+
+h1 {
+  margin: 15px 0;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 10px 0;
+  clear:left;
+  color:#000;
+  position:relative;
+}
+
+#lock  {
+	background: url(../images/j_login_lock.png) right no-repeat;
+	float: left;
+	height: 90px;
+	width: 175px;
+	margin: 0 0 10px 0px;
+	position:relative;
+}
+
+#content-box .m {
+  padding: 10px;
+}
+
+#content-box .padding {
+  padding: 0px;
+}
+
+#section-box  { float: left;}
+
+#section-box .m {
+  padding: 5px;
+}
+#section-box .padding {
+	background: none; padding: 0;
+}
+
+.button { text-align: right; }
+
+.login-form    { text-align: left; width: 60%; }
+.login-form h1 { display: none; }
+.login-form p  { padding: 0 1em 0 1em; }
+
+.login-text { text-align: left; width: 40%; float: left; }
+
+#form-login label {
+	display: block;
+	float: left;
+	width: 59px;
+	text-align: right;
+	padding: 4px 4px 4px 4px;
+	color: #666;
+	font-weight: bold;
+}
+
+#form-login .button_holder {form-login-lang
+	float: left;
+	padding-left: 66px;
+	padding-top:5px;
+}
+#form-login div.button1{
+ 	float: left;
+}
+
+#form-login div.button1 div.next {
+	float: left;
+}
+
+div.m input:focus, div.m select:focus{
+background-color: transparent;
+}
+
+div#element-box{
+	-moz-border-radius:10px;
+    -webkit-border-radius:10px;
+	background: #fff;
+}
+div.textbox{
+padding-left:5px;
+}
+
+#form-login div.textbox input{
+/*padding-top:0;*/
+}
+#form-login span.selectright{
+padding-top:5px;
+background-position:right bottom;
+}
+table.logintab{
+width:100%;
+height:100%;
+}
+div.login span.inputboxright{
+display:none;
+}
+#return{
+float:right;
+width:153px;
+margin-top:10px;
+}
+p#form-login-lang label{
+padding-top:10px;
+}
+.des{
+float:right;
+width:153px;
+margin-right:30px;
+}
+div#joomla{
+color:#0B55C4;
+font-size:20px;
+font-weight:bold;
+margin:0;
+padding-bottom:8px;
+}
+p#form-login-password,p#form-login-username{
+clear:both;
+}
+.clr{
+float:left;
+}
+div#element-box{
+height:250px;
+}
+#selectlangright{
+	margin-left:4px;
+}
+.button1 a{ width:25px; }
+select#lang{
+margin-left:5px;
+}a#openid-link { font-weight:bold;padding-top: 10px;color:#333333;float:left; position: relative; }
+a:hover#openid-link { color:#0B55C4; }

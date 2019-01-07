@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<config>
+		<params  addPath="/administrator/components/com_rquotes/elements">
+			<param name="title" type="text" default="Rquotes" label="Page Title" description="Text to appear at top of Page" size="30" />
+			<param name="show_title" type="list" default="Show" label="Show Title ?" description="Show Page Title" >
+				<option value="yes">Show</option>
+				<option value="no">Hide</option>
+		</param>	
+			<param name="description" type="textarea" default="Type the text to appear after the page title" label="Description" rows="3" cols="25" 			description= "Text to display at top of page after the title." />
+	
+			<param name="show_description" type="list" default="Show" label="Show Description ?" description="Show Page Description ?" >
+				<option value="yes">Show</option>
+				<option value="no">Hide</option>
+			</param>		
+
+
+			
+			<param name="category"  type="sqlmultilistx" sql= "SELECT id AS value , title AS category  FROM #__categories WHERE section='com_rquotes'  AND published = 1" default="OPT0" 
+multiple="" label="Select a category" description="Use Ctrl-click to select more than one item." >
+        <option value="0">Show All</option>  
+  </param>    
+
+
+			<param name="limit" type="text" default="10" label="Number of Items to Display" description="Choose how many items to display" size="5" />
+			<param name="order" type="list" default="" label="Sort Order" description="How to display info" size="5" >
+
+			<option value="asc">Ascending</option>
+			<option value="desc">Descending</option>
+		</param>
+			
+		<param name="order_collumn" type="list" default="" label="Sort Collumn" description="How to display info" size="5" >
+
+			<option value="id">id</option>
+			<option value="catid">daily #</option>
+			<option value="quote">quotes</option>
+			<option value="author">author</option>
+		</param>
+
+		<param name="show_quote" type="list" default="yes" label="Show Quote" description="Show Quote info" size="5">
+					<option value="yes">Show</option>
+					<option value="no">Hide</option>
+		</param>	
+		<param name="show_author" type="list" default="yes" label="Show Author" description="Show Author info" size="5" > 
+					<option value="yes">Show</option>
+					<option value="no">Hide</option>
+		</param>
+		<param name="show_notes" type="list" default="yes" label="Show notes" description="Show Notes info" size="5" >
+					<option value="yes">Show</option>
+					<option value="no">Hide</option>
+		</param> 
+		</params>
+	</config>

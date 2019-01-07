@@ -1,0 +1,57 @@
+/**
+* @Jentla Flexile is a fresh new template for the Joomla! Administrator Back-end.
+* @copyright Copyright (C) 2010 ZacWare Pty Ltd. http://jentla.com. [^] All rights reserved.
+* @license GNU/GPL, see license.txt
+* Jentla Flexile is free software. you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version or open source software licenses.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*/
+
+/* ---- Basic menu styles ------------------- */
+
+/* common styling */
+#menu li {
+	border-right:1px solid #FFFFFF;
+	border-left:1px solid #D8D8D8;
+	float: right;
+}
+
+#menu li.hover li.hover ul { left: auto; right: 100%; }
+
+#menu a, #menu div{
+	background-position: right;
+	margin: 0 0 0 1px;
+}
+
+#menu ul{
+	background-position:right;
+}
+
+#menu ul li.node {
+	background:transparent url(../images/j_arrow_left.png) no-repeat scroll left 50%;
+}
+
+#menu li ul { left: auto; right: 0%}
+
+
+#menu ul a {
+	padding-right:25px;
+	padding-left:20px;
+}
+
+#submenu li {
+	float:right;
+}
+
+#submenu li a,
+#submenu span.nolink {
+	border-right:none;
+	border-left:1px solid #CCCCCC;
+	display: -moz-inline-box;
+}

@@ -1,0 +1,80 @@
+/**
+* @Jentla Flexile is a fresh new template for the Joomla! Administrator Back-end.
+* @copyright Copyright (C) 2010 ZacWare Pty Ltd. http://jentla.com. [^] All rights reserved.
+* @license GNU/GPL, see license.txt
+* Jentla Flexile is free software. you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version or open source software licenses.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*/
+
+
+div.wrapper{min-height:0%;height:auto !important;height:100%;margin:0 auto 0px;display:inline-block;} 
+.footer,.push{height:260px;} 
+
+.space{padding:0 0 0 1em;}
+//span.checkbox{width:19px;height:25px;padding:0 5px 0 0;display:block;clear:left;float:left;position:absolute;}
+
+span.checkbox{
+	width: 19px;
+	height: 25px;
+	padding: 0 5px 0 0;
+	background: url(../icons/checkbox.png) no-repeat;
+	/*display: block;*/
+	clear: left;
+	float: left;
+	position:absolute;
+	/*line-height:18em;*/
+}
+.inputbox[type="checkbox"] {/*margin:5px 3px;visibility:hidden;*/}
+
+span.radio{width:19px;height:25px;padding:0 15px 5px 0;background:url(../icons/radio.png) no-repeat; cursor:default;/*display:block;float:left;margin-top: -4px;*/}
+span.select{
+	position:absolute;height:25px;padding:0 0 0 5px;color:#000;font:10px/21px arial,sans-serif;
+	background:url(../icons/dropdown_left.gif) no-repeat top left;
+	overflow:hidden;
+	font-size:12px;font-family:Arial;white-space:nowrap;
+}
+span.selectright{
+	position:absolute;height:25px;padding:0;color:#000;font:10px/21px arial,sans-serif;
+	background:url(../icons/dropdown_right.gif) no-repeat top right;
+	overflow:hidden;
+}
+.accessible{display:none;} .learn{padding:1.2em 0 2em;font-size:1.2em;}
+.tag{position:absolute;left:200px;top:190px;width:334px;height:38px;background:url(images/tag.png);} .touch{font-size:1.1em;}
+#webdesign{width:325px;height:28px;text-indent:-500em;background:url(images/web-design-las-vegas.png) no-repeat;}
+#designservices{width:325px;height:28px;text-indent:-500em;background:url(images/web-design-services.png) no-repeat;}
+#designportfolio{width:325px;height:28px;padding:0 0 40px;text-indent:-500em;background:url(images/web-design-portfolio.png) no-repeat;}
+#webresources{width:325px;height:28px;text-indent:-500em;background:url(images/web-design-resources.png) no-repeat;}
+#webarticles{width:325px;height:28px;margin:2em 0 0;text-indent:-500em;background:url(images/web-design-articles-h.png) no-repeat;}
+#contactme{width:325px;height:28px;text-indent:-500em;background:url(images/contact-me-h.png) no-repeat;}
+#usability{width:490px;height:28px;text-indent:-500em;background:url(images/usability-and-accessibility.png) no-repeat;}
+#code{/*width:490px;height:28px;text-indent:-500em;background:url(images/better-code-better-results.png) no-repeat;*/}
+#manage{width:490px;height:28px;text-indent:-500em;background:url(images/manage-your-site.png) no-repeat;}
+div.buttonboxright,div.inputboxright,span.buttonboxright,span.inputboxright,span.randomright{
+	padding:0px 4px 2px 10px;color:#000;font:10px/21px arial,sans-serif;
+	background:url('../icons/btn_right.gif') no-repeat right top;
+	height:25px;
+	/*float:left;*/
+	display:inline-block;
+	border:none;
+	/*overflow:hidden;*/
+}
+button.buttonbox,input[type="button"].inputbox,input[type="submit"].inputbox,input[type="reset"].inputbox,div.m input[type="button"],input[type="submit"],input[type="button"].random,input[type="submit"].random,input[type="reset"].random{
+	height:25px;padding:0 3px 4px 5px;color:#000;font:12px/21px arial,sans-serif;
+	background:url(../icons/btn_left.gif) no-repeat top left;border:none;
+	overflow:hidden;
+}
+div.m td button {margin:0;font-size:12px;}
+input[type=radio]{
+position:absolute;
+visibility:hidden;
+}
+td span label{
+float:none;
+}

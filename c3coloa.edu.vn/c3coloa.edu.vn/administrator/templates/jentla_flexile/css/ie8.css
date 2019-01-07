@@ -1,0 +1,48 @@
+/**
+* @Jentla Flexile is a fresh new template for the Joomla! Administrator Back-end.
+* @copyright Copyright (C) 2010 ZacWare Pty Ltd. http://jentla.com. [^] All rights reserved.
+* @license GNU/GPL, see license.txt
+* Jentla Flexile is free software. you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version or open source software licenses.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*/
+div.textbox{
+padding-top:0px;background-position:right top;
+}
+div.textbox .inputbox, div.textbox .text_area, div.textbox .input_box{
+padding-top:3px;
+}
+.moor-rLabel div.textbox,.moor-gLabel div.textbox,.moor-bLabel div.textbox,.moor-HueLabel div.textbox,.moor-SatuLabel div.textbox,.moor-BrighLabel div.textbox{
+float:right;
+position:relative;
+}
+div.m input{line-height:1.5;}
+th span.checkbox{
+margin:4px 0px 0px 0px;
+}
+span.checkbox{
+margin-top:0px;
+}
+form#globalreplace-form span.checkbox{
+position:absolute;
+}
+form#globalreplace-form  input.random{margin-left:0px;}
+div span.textboxleft,div.textbox span.textboxleft{margin-top:0px;}
+.g-title .arrow { float: none;}
+.g-title_open .arrow.active {float:none;}
+a#text_bold,a#text_italic,a#text_strikethrough,a#text_justifyleft,a#text_justifycenter,a#text_justifyright,a#mce_editor_0_outdent,a#mce_editor_0_undo,a#mce_editor_0_redo,a#mce_editor_0_cleanup,a#text_bullist,a#text_numlist,a#text_outdent,a#text_indent,a#text_undo,a#text_redo,a#text_cleanup,a#text_removeformat,a#text_sup,a#text_sub,a#text_charmap{
+margin-right:0px;
+}
+div FIELDSET.adminform{
+margin:0px 0px 0px 10px;
+}
+.wrapper,div.textbox,div.buttonboxright,div.inputboxright,span.buttonboxright,span.inputboxright{display:inline-block;}
+
+div.textbox .inputbox{background: url("../images/search_left.png") no-repeat scroll left top transparent;}
+table td.paramlist_value input.text_area { width: 100%;}

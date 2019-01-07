@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<install type="module" version="1.5.0">
+	<name>Categories of section</name>
+	<author>BK</author>
+	<creationDate>August 2008</creationDate>
+	<copyright>(C) 2007 - 2008 BK. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>bkomraz1@gmail.com</authorEmail>
+	<authorUrl>joomlacode.org/gf/project/mod_categories/</authorUrl>
+	<version>1.5.1</version>
+	<description>The Categories module shows a list of Content categories for a particular section.
+	<![CDATA[
+	<br> 
+	<br> 
+	If you find this module useful 
+	<a target=_blank href=http://extensions.joomla.org/component/option,com_mtree/task,viewlink/link_id,972/Itemid,35/>rate it</a> 
+	or 
+	<a target=_blank href=https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=bkomraz1%40gmail%2ecom&amp;item_name=Display%20News%20and%20other%20Joomla%20extentions%20by%20BK&amp;buyer_credit_promo_code=&amp;buyer_credit_product_category=&amp;buyer_credit_shipping_method=&amp;buyer_credit_user_address_change=&amp;no_shipping=1&amp;tax=0&amp;currency_code=USD&amp;lc=US&amp;bn=PP%2dDonationsBF&amp;charset=UTF%2d8>donate</a>.
+	
+	<br>	<br>
+	See other Joomla extenstions created by BK:<br>
+	
+	<a target=_blank href="http://extensions.joomla.org/component/option,com_mtree/task,viewlink/link_id,736/Itemid,35/" align="right" >Display News by BK</a><br>
+	<a target=_blank href="http://extensions.joomla.org/component/option,com_mtree/task,viewlink/link_id,2790/Itemid,35/" align="right" class="listingName">Author Link</a><br>
+	<a target=_blank href="http://extensions.joomla.org/component/option,com_mtree/task,viewlink/link_id,2780/Itemid,35/" align="right" class="listingName">Section/Category description</a><br>
+
+]]>
+	</description>
+    <files>
+           <filename module="mod_categories">mod_categories.php</filename>
+           <filename module="mod_categories">helper.php</filename>
+    </files>
+	<params>
+	 		<param name="show_page_title" type="radio" default="1" label="Section title" description="Show/Hide the Section Title">
+	 			<option value="0">Hide</option>
+	 			<option value="1">Show</option>
+	 		</param>
+		<param name="id" type="section" default="" label="Section (Don't select for auto section)" description="Section (Don't select for auto selection)"/>
+		<param name="pageclass_sfx" type="text" size="20" default="" label="Page Class Suffix" description="PARAMPAGECLASSSFX" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="show_description" type="radio" default="0" label="Description" description="Show/Hide the Section Description">
+	 			<option value="0">Hide</option>
+	 			<option value="1">Show</option>
+	 		</param>
+			<param name="show_description_image" type="radio" default="0" label="Description Image" description="Show/Hide the Section Description">
+	 			<option value="0">Hide</option>
+	 			<option value="1">Show</option>
+	 		</param>
+
+			<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="show_categories" type="radio" default="1" label="Category List - Section" description="PARAMOTHERCATSECTION">
+				<option value="0">Hide</option>
+				<option value="1">Show</option>
+			</param>
+			<param name="show_empty_categories" type="radio" default="0" label="Empty Categories in Section" description="Show/Hide empty(no items) categories in Section view">
+				<option value="0">Hide</option>
+				<option value="1">Show</option>
+			</param>
+			<param name="show_cat_num_articles" type="radio" default="1" label="Num Category Items" description="PARAMCATITEMS">
+				<option value="0">Hide</option>
+				<option value="1">Show</option>
+			</param>
+			<param name="show_category_description" type="radio" default="1" label="Category Description" description="PARAMSHOWHIDE">
+				<option value="0">Hide</option>
+				<option value="1">Show</option>
+			</param>
+		</params>
+		<params  group="advanced">
+			<param name="orderby" type="list" default="" label="Order by" description="PARAMORDERBY">
+				<option value="">Default</option>
+				<option value="alpha">Title Alphabetical</option>
+				<option value="ralpha">Title Reverse-Alphabetical</option>
+				<option value="order">Ordering</option>
+			</param>
+			<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+				<option value="1">Use global</option>
+				<option value="0">No caching</option>
+			</param>
+		</params>
+</install>

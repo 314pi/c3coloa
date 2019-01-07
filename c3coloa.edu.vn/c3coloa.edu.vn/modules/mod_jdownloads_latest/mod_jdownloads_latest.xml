@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" method="upgrade">
+        <name>jDownloads latest</name>
+        <author>Arno Betz</author>
+        <creationDate>2011-06-11</creationDate>
+        <copyright>(C) 2007-2008 Arno Betz. All rights reserved.</copyright>
+        <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+        <authorEmail>info@jdownloads.com</authorEmail>
+        <authorUrl>www.jDownloads.com</authorUrl>
+        <version>1.8.6</version>
+        <description>This Modul shows the newest added downloads from the component jDownloads. It is only for jDownloads 1.6 and later (Support: www.jDownloads.com)</description>
+        <files>
+                <filename module="mod_jdownloads_latest">mod_jdownloads_latest.php</filename>
+                <filename>index.html</filename>
+        </files>
+        <languages>
+            <language tag="en-GB">en-GB.mod_jdownloads_latest.ini</language>  
+        </languages>
+        <params>
+                <param name="text_before" type="textarea" cols="30" rows="2" default="" label="TEXT_BEFORE_TITLE" description="TEXT_BEFORE_DESC"/>
+                <param name="text_after" type="textarea" cols="30" rows="2" default="" label="TEXT_AFTER_TITLE" description="TEXT_AFTER_DESC"/>
+                <param type="spacer" />
+                <param name="cat_id" type="text" default="0" label="CAT_ID_TITLE" description="CAT_ID_DESC"/>
+                <param name="sum_view" type="text" default="5" label="NO_FILES_TITLE" description="NO_FILES_DESC"/>
+                <param name="sum_char" type="text" default="25" label="TITLE_CHAR_LENGTH_TITLE" description="TITLE_CHAR_LENGTH_DESC"/>
+                <param name="short_char" type="text" default="..." label="TITLE_REPLACE_CHAR_TITLE" description="TITLE_REPLACE_CHAR_DESC"/>
+                <param name="short_version" type="text" default="v" label="CHAR_BEFORE_RELEASE_TITLE" description="CHAR_BEFORE_RELEASE_DESC"/>
+                <param name="detail_view" type="radio" label="LINK_TO_DETAIL_TITLE" default="1" description="LINK_TO_DETAIL_DESC">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                </param>
+				<param name="view_tooltip" type="radio" default="1" label="VIEW_TOOLTIP" description="">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                </param>
+				<param name="view_tooltip_length" type="text" default="100" label="VIEW_TOOLTIP_LENGTH" description=""/>
+                <param type="spacer" />
+                <param name="view_date" type="radio" default="1" label="SHOW_DATE_TITLE" description="SHOW_DATE_DESC">
+                		<option value="1">Yes</option>
+			            <option value="0">No</option>
+		        </param>
+                <param name="view_date_same_line" type="radio" default="0" label="VIEW_DATE_IN_THE_SAME_LINE_TITLE" description="VIEW_DATE_IN_THE_SAME_LINE_DESC">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                </param>
+                <param name="date_format" type="text" default="%Y-%m-%d" label="DATE_FORMAT_TITLE" description="DATE_FORMAT_DESC"/>
+                <param name="date_alignment" type="list" label="DATE_ALIGN_TITLE" default="left" description="DATE_ALIGN_DESC">
+                        <option value="left">left</option>
+                        <option value="right">right</option>
+                        <option value="center">center</option>
+                </param> 
+                <param type="spacer" />
+                <param name="view_pics" type="radio" label="VIEW_MIME_PIC" default="1" description="VIEW_MIME_PIC_DESC">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                </param>
+                <param name="view_pics_size" type="text" default="18" label="SET_SIZE_FROM_MIME_PICS" description="SET_SIZE_FROM_MIME_PICS_DESC"/>
+                <param name="view_numerical_list" type="radio" label="VIEW_NUMERICAL_LIST" default="0" description="VIEW_NUMERICAL_LIST_DESC">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                </param>
+                <param type="spacer" />
+                <param name="cat_show" type="radio" default="1" label="CAT_SHOW_TITLE" description="CAT_SHOW_DESC">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                </param>
+                <param name="cat_show_type" type="radio" label="CAT_SHOW_TYPE_TITLE" default="all" description="CAT_SHOW_TYPE_DESC">
+                        <option value="all">All Categories</option>
+                        <option value="containing">Containing Category</option>
+                </param>
+                <param name="cat_show_text" type="text" default=" in" label="CAT_SHOW_TEXT_TITLE" description=""/>                
+                <param name="cat_show_text_color" type="text" default="#808080" label="CAT_SHOW_TEXT_FONT_COLOR" description=""/>
+                <param name="cat_show_text_size" type="text" default="8pt" label="CAT_SHOW_TEXT_FONT_SIZE" description=""/>
+                <param name="cat_show_as_link" type="radio" default="1" label="CAT_SHOW_TEXT_AS_LINK" description="">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                </param>
+				<param type="spacer" />
+                <param name="alignment" type="list" label="ALIGN_TITLE" default="left" description="ALIGN_DESC">
+                        <option value="left">left</option>
+                        <option value="right">right</option>
+                        <option value="center">center</option>
+                </param>
+                <param name="moduleclass_sfx" type="text" default="" label="CLASS_SUFFIX_TITLE" description="CLASS_SUFFIX_DESC"/>
+        </params>
+		<params group="advanced">
+        <param name="cache" type="list" default="1" label="CACHE_LABEL" description="CACHE_DESCRIPTION">
+            <option value="1">Use global</option>
+            <option value="0">No caching</option>
+        </param>
+        <param name="cache_time" type="text" default="900" label="CACHE_TIME_LABEL" description="CACHE_TIME_DESCRIPTION" />
+    </params>
+</install>

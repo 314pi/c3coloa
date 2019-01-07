@@ -1,0 +1,384 @@
+/**
+ * @version $Id: position.css 14401 2010-01-26 14:10:00Z louis $
+ * @author Design & Accessible Team ( Angie Radtke / Robert Deutz )
+ * @package Joomla
+ * @subpackage Accessible-Template-Beez
+ * @copyright Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+ * @license GNU/GPL, see LICENSE.php
+ * Joomla! is free software. This version may have been modified pursuant to the
+ * GNU General Public License, and as distributed it includes or is derivative
+ * of works licensed under the GNU General Public License or other free or open
+ * source software licenses. See COPYRIGHT.php for copyright notices and
+ * details.
+ */
+
+*
+{
+	margin: 0;
+	padding: 0;
+	}
+html body div#all div#trinhbay div#trai1 div#nhom1 div#nhom1_phai div.moduletable_tuyensinh3
+{
+margin-top: 20px;
+}
+html body div#all div#trinhbay div#phai1 div.moduletable_thudua h3
+{
+margin-top: 20px;
+}
+#all
+{
+	position: relative;
+	background: none repeat scroll 0 0 #fff;
+	color: #000000;
+	margin: 5px auto;
+	max-width: 1000px;
+	min-width: 1000px;
+	text-align: left;
+
+}
+
+body
+{
+	color: #000000;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 100.1%;
+	padding: 0px;
+	text-align: center;
+	background-image: url("../images/hinhnen.gif"); 
+	background-repeat: repeat;
+}
+
+/* ################   Position ################  */
+
+
+
+#logo
+{
+	position: relative;
+	text-align: right;
+	z-index: 0;
+}
+
+#menungang
+{
+	position: relative;
+	float: left;
+	width: 100%;
+
+}
+
+#duongdan
+{
+	background-image: url("../images/con_address.png"); 
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: 20px 20px;
+	background-position: 3px 6px;
+	float: left;
+	width: 69%;
+	padding: 10px 0 5px 25px;
+}
+
+#thoigian
+{
+	position: relative;
+	float: right;
+	width: 20%;
+	
+}
+#trinhbay
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-bottom: 0px;
+
+	
+}
+
+
+#trai1
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 5px;		
+	
+}
+
+
+#tinanh
+{
+	position: relative;
+	float: left;
+	width: 64%;
+	padding: 5px 10px 5px 5px;
+	
+}
+#anhgioithieu
+{
+	position: relative;
+	float: left;
+	width: 31.5%;
+	padding: 5px 5px 5px 10px;
+	
+}
+
+
+#nhom1
+{
+	position: relative;
+	float: left;
+	width: 99%;
+	padding: 3px;
+	
+}
+
+#nhom1_trai
+{
+	position: relative;
+	float: left;
+	width: 21%;
+	padding: 5px;
+	height: 380px;
+}
+#nhom1_giua
+{
+	position: relative;
+	float: left;
+	width: 39%;
+	height: 380px;
+	padding: 5px;
+	
+}
+
+#nhom1_phai
+{
+	position: relative;
+	float: left;
+	width: 30%;
+	padding:  5px 0px 5px 5px;
+	height: 380px;
+
+}
+
+
+#phai1
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 0px;
+}
+#phai1_1
+{
+	position: relative;
+	float: left;
+	width: 17%;
+	padding: 15px 14px 14px 14px ;
+}
+#phai1_a
+{
+	position: relative;
+	float: left;
+	width: 17%;
+	padding: 0 14px 14px 14px ;
+}
+#phai1_b
+{
+	position: relative;
+	float: left;
+	width: 17%;
+	padding: 0 14px 14px 14px ;
+}
+
+
+#phai1_c
+{
+	position: relative;
+	float: left;
+	width: 17%;
+	padding: 0 14px 14px 14px ;
+
+}
+#phai1_d
+{
+	position: relative;
+	float: left;
+	width: 17%;
+	padding: 0 14px 14px 14px ;
+}
+
+#noidung
+{
+	position: relative;
+	float: left;
+	width: 59.5%;
+	
+}
+#nhom2
+{
+	position: relative;
+	float: right;
+	width: 40%;
+	
+}
+
+#giua
+{
+	position: relative;
+	float: left;
+	width: 50%
+	
+		
+}
+
+#phai2
+{
+	position: relative;
+	float: right;
+	width: 50%;
+	
+	
+}
+
+
+#lienket
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	background: none repeat scroll 0 0 #fff;	
+	padding: 0px 0;
+	margin: 0px 0 0 0;
+}
+
+#lienketA123
+{
+	position: relative;
+	float: right;
+	width: 70%;
+	padding: 0px;
+	
+}
+
+#lienket_tructuyen
+{
+	position: relative;
+	float: left;
+	width: 27%;
+	padding: 0px;
+	
+	
+	
+}
+
+
+#chantrang
+{
+	position: relative;
+	float: left;
+	width: 100%	
+	
+}
+
+/* ****************************************************************************************/
+#page 
+{
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border-bottom-color: #b81115;
+	border-bottom-style: dotted;
+	border-bottom-width: 0px;
+}
+
+/* ###############  main * ########################### */
+/* position */
+.leading
+{
+	border-bottom: dotted 0px #b81115;
+	color: #000000;
+	margin: 0px 0 10px 0;
+	padding:5px 5px 10px 5px;
+	position: relative;
+	min-height: 250px;
+}
+
+.leading img
+{
+
+}
+
+
+.leading_separator
+{
+	border-bottom: solid 0px #333333;
+	display: block;
+	height: 10px;
+	margin: 0 0 0px 0;
+	display: none;
+}
+
+.article_separator
+{
+	border: solid 1px #333333;
+	display: none;
+	margin: 0px 0 0px 0;
+}
+
+.blog 
+{ 
+	padding: 0 0 0px 0;
+	margin: 0; 
+}
+
+.cols1
+{
+	display: block;
+	float: none !important;
+	margin: 0 !important;
+}
+
+.cols2 { width: 45%; }
+.cols3 { width: 30%; }
+
+.column1 , .column2
+{
+	border: solid 0px #D4A7C5;
+	margin: 0 5px 0 0;
+	position: relative;
+}
+
+.column2 , .column1
+{
+	float: left;
+	margin: 0;
+}
+
+.column2
+{
+	float: right;
+	margin: 0;
+	width: 45%;
+}
+
+.article_row
+{
+	margin: 0px 0 0px 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.article_column
+{
+	border: solid 0px #ccc;
+	padding: 10px 10px 10px 0;
+}
+
+.row_separator2
+{
+	display: block;
+	clear: both;
+	margin: 0;
+	border: solid 0px;
+}

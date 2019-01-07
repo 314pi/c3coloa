@@ -1,0 +1,179 @@
+/**
+ * Changelog
+ *
+ * @package     Slider
+ * @version     1.7.1
+ *
+ * @author      Peter van Westen <peter@nonumber.nl>
+ * @link        http://www.nonumber.nl
+ * @copyright   Copyright © 2011 NoNumber! All Rights Reserved
+ * @license     http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+
+/**
+ * + Added
+ * ! Removed
+ * ^ Changed
+ * # Fixed
+ */
+
+17-Oct-2011 : v1.7.1
+ # Fixed security issue in NoNumber! Framework plugin
+ # Fixed issue with w3c validator giving false negatives on html output
+
+08-Oct-2011 : v1.7.0
+ + Added ability to set slides up to change on mouse hover instead of click
+ ^ Improved installer
+ ^ Moved translation language files to main package (no more language packs)
+ ^ Cleaned up some code (like no more use of DS)
+ # Fixed issue with tags being handled in editor button popup
+ # Fixed issue with the slidelink tag not working outside the area where the slides are
+
+16-Sep-2011 : v1.6.0
+ ^ Changed NoNumber! Elements plugin to NoNumber! Framework
+ ^ Moved common language strings to NoNumber! Framework files
+ ^ Changed way MooTools version is detected
+ ^ Improved initial display before script is loaded/executed
+ ^ Improved handling of surrounding whitespace
+ # Fixed issue with javascript files breaking when using js/css compression
+ # Fixed issue with invalid characters in element ids (not passing w3c validation)
+ # Fixed issue with class names showing in print view
+
+29-Jul-2011 : v1.5.2
+ # Fixed issue with surrounding html tags potentially breaking html structure
+
+21-Jul-2011 : v1.5.1
+ + Added option to not use outlines
+ + Added option to use versioned scripts and stylesheets
+ ^ Improved handling of styling on tags
+ ^ Improved handling of tags in feeds
+ # Fixed issue with error on servers that don't have mbstring functions enabled
+ # Fixed issue with some content not being rendered correctly in inactive slides
+
+05-Jul-2011 : v1.5.0
+ + Added cookie support for remembering active tabs
+ ^ Changed layout of options
+ ^ Changed use of elements
+ ^ Improved handling of print and pdf pages
+ # Fixed issue with images and other html in titles
+ # Fixed issue with inactive content showing shortly before page is loaded
+ # Fixed issue with JEventHandler error on some setups
+
+06-Jun-2011 : v1.4.2
+ # Fixed issue with slides using custom ending tag no longer working (since v1.4.1)
+ # Fixed version number
+
+06-Jun-2011 : v1.4.1
+ + Added option to overrule the window sliding per slide
+ + Added option to define the tag type used for the titles
+ ^ Added better handling of tags when closing tag is not found
+ # Fixed issue with file inclusion not working on some Joomla 1.5 setups
+
+23-May-2011 : v1.4.0
+ + Joomla 1.6 compatible!
+ + Added more comments to css file
+ ^ Changed way the mootools version is detected
+ ! Removed force mootools 1.2 option
+ # Fixed issue with setting active item via number / set in url not working correctly
+
+30-Mar-2011 : v1.3.2
+ + Added option to activate slide via url using the number of the slide
+ # Fixed issue with problems when html has multiple body tags
+ # Fixed issue with slides being handled on print page
+ # Fixed issue plugin being executed on raw format pages
+ # Fixed issue with bottom border line sometimes disappearing
+ # Fixed some styling issues
+
+28-Feb-2011 : v1.3.1
+ ^ Changed language files to be J1.6 ready
+ # Fixed issue with second tab not opening correctly when first slide is a link
+ # Fixed issue with html tags in title messing up code
+ # Fixed issue with leading/trailing spaces/enters on tags creating unwanted whitespace
+
+18-Feb-2011 : v1.3.0
+ + Added option to switch off scrolling to slide on url (and option to overrule by adding a + after the slide)
+ + Added possibility to link slides to other pages
+ + Added name of slide to url status when hovering over slide label
+ # Fixed issue with tags being interpreted in frontend editor fields with very large contents
+
+11-Feb-2011 : v1.2.0
+ + Added ability to nest slides
+ + Added scrolling to slide on url (and option to not scroll by adding a - after the slide)
+ + Added extra class to style content for before script is loaded or fails
+ ^ Changed extension icon / logo
+ ^ Besides {slide=, now {slides= will also work as tag
+ # Fixed issues with tab matching with special characters
+ # Fixed issues with tab matching when using tab number
+ # Fixed issue with leading/trailing spaces in the tab titles
+ # Fixed some issues with loading problems on IE
+
+13-Dec-2010 : v1.1.1
+ # Fixed issue with conflicting characters in language file
+
+10-Dec-2010 : v1.1.0
+ + Added option to set line color in settings
+ + Added option to set rounded border radius in settings
+ + Added option to not load core MooTools script
+ + Added option to not force load MooTools 1.2 ready script
+ # Fixed issue with elements showing outside content area on IE7
+ # Fixed issue with javascript errors on IE7
+ # Fixed issues with document being called to early
+ # Fixed some issues with loading of language strings
+ # Cleaned up some code
+
+03-Dec-2010 : v1.0.3
+ # Fixed issue with slider speed setting not working (and causing php notice)
+ # Fixed issue with elements showing outside content area on IE
+ # Fixed issue with slides not working on IE8
+ # Fixed issue with setting active slides via url not working with all Cyrillic characters
+ # Fixed some file encoding stuff
+
+26-Nov-2010 : v1.0.2
+ # Fixed issue with slides not working in IE
+
+25-Nov-2010 : v1.0.1
+ ^ Changed script to make active state of slide bar change after slide
+ # Fixed language string of ROUNDED_CORNERS
+
+25-Nov-2010 : v1.0.0
+ + Added checks to see if NoNumber! Elements plugin is installed/enabled
+ + Added classes to content to enable styling per slide
+ + Added scrolling on slide links {tablink=...}
+ + Added option to scroll to top of slide(s) when opened
+ + Added option to set rounded corners on/off
+ ^ Fixed and updated all language strings
+ ^ Changed stylesheet a bit
+ ^ Changed default slide effect speed
+ # Fixed issue with fade effect not working for MooTools 1.2
+ # Fixed issues with fade effect when switching between slides very fast
+ # Fixed issue with tags being handled in edit fields
+
+16-Nov-2010 : v0.3.0
+ # Fixed extension causing pages to break on some setups
+ # Fixed issue with not working in some forms (where they should)
+
+15-Nov-2010 : v0.2.3
+ + Added fade effect and option to set speed of it
+ # Fixed some css styling issues
+ # Fixed issue with tabs not being handled outside component area
+
+12-Nov-2010 : v0.2.2
+ + Added option for indenting both title and content
+ + Added option to make slide active by number in url (slide=2)
+ # Fixed issue with extra styles not working when using indentation
+ # Fixed issue with multiple classes in tag
+ # Fixed issue with active slides when using Cyrillic titles
+
+11-Nov-2010 : v0.2.1
+ # Fixed issue with some tags being handled in editor field
+ # Fixed issue with editor buttons messing up html with some editors
+
+09-Nov-2010 : v0.2.0
+ + Added option to select tag delimiter '=' or space
+ + Added option to set indenting of slide title or content (or none)
+ ^ Made sliding effect a little smoother
+ # Fixed issue with 'closed' option not working
+ # Fixed issue with script not working with MooTools 1.2
+
+08-Nov-2010 : v0.1.0
+ + First beta release

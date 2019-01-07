@@ -1,0 +1,194 @@
+/**
+* @Jentla Flexile is a fresh new template for the Joomla! Administrator Back-end.
+* @copyright Copyright (C) 2010 ZacWare Pty Ltd. http://jentla.com. [^] All rights reserved.
+* @license GNU/GPL, see license.txt
+* Jentla Flexile is free software. you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version or open source software licenses.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*/
+
+input { border-width: expression(this.type=="radio"?'0px':this.type=="checkbox"?'0px':'1px'); }
+
+div#toolbar-box {
+/*	height: 65px;*/
+}
+
+#toolbar-box div.m {
+/*height: 50px;*/
+
+}
+#module-status { position:absolute;right:0px; }
+
+#toolbar li img{position:absolute;right:0;bottom:0;}
+
+div.toolbar{/*background-color: #eaeaea;*/};
+
+#toolbar li.open ul {position:absolute;right:0px; }
+
+#module-status .no-unread-messages .no-of-msgs,#module-status .unread-messages .no-of-msgs
+{ 
+	background:url('../icons/unreadmessage.png') no-repeat;
+	border:none;text-align:center;width:10px;height:20px;
+	padding-left:7px;padding-top:4px;
+	color:white;font-weight:bold;
+}
+
+div.corner{
+	/*background:url('../icons/logged_users_box_left.png') no-repeat;
+	border: 0px;
+	margin:3px;height:18px;padding:2px 0 0 10px;
+	font-size:11px;width:90%;position:relative;
+	text-align : left;*/
+}
+.corner div{
+	/*background: url('../icons/logged_users_box_count.png') 100% 100% no-repeat;
+	border: 0px;
+	position : absolute; bottom:1.5px;right:0px;
+	float:right;margin:2px;text-align:center;text-vertical-align:middle;
+	padding:1px 5px 3px;width:10px;width:10px;*/
+}
+
+span.buttonboxright,span.inputboxright{
+	padding-top:0px;float:none;
+}
+span.randomright{
+	padding-right:6px;
+}
+div.width-30 {
+width:40%;
+}
+div.width-50 {
+width:49.5%;
+}
+div.width-70 {
+width:60%;
+}
+
+/*table.adminlist td.order span { float: left; display: block; width: 16px; text-align: center; }*/
+table.adminlist{
+border-collapse: collapse;
+border-spacing: 0;
+}
+table.adminlist input.text_area{
+border:none;
+}
+#form-login label{
+padding-top:4px;
+}
+span#selectmce_editor_0_formatSelectright{
+left:4px;
+float:left;
+position:absolute;
+}
+select#mce_editor_0_formatSelect{
+left:4px;
+float:left;
+/*position:absolute;*/
+}
+#toolbar li.toolbarHeading{
+	/*background:url(../images/toolbar/actionsbg.png) no-repeat;
+	border:none;*/
+	/*height:30px;*/
+}
+#toolbar li,#toolbar li ul{width:205px;}
+#toolbar li ul{margin-top:0px;}
+#toolbar li.toolbarHeading img{height:0px;}
+div.textbox{padding-bottom:0px;background-position-y:center;height:auto;display:inline;}
+.wrapper,div.buttonboxright,div.inputboxright,span.buttonboxright,span.inputboxright{display:inline;}
+/*div.textbox .inputbox, div.textbox .text_area, div.textbox .input_box,input.text_area{
+padding-top:3px;
+}*/
+
+label.moor-hexLabel span.inputboxright div{padding-right:0px;}
+label.moor-hexLabel span.inputboxright div input.inputbox{margin:0px;line-height:13px;}
+label.moor-hexLabel div.textbox{padding-right:6px;}
+label.moor-hexLabel div.textbox input.inputbox{position:relative;}
+.moor-rLabel div.textbox,.moor-gLabel div.textbox,.moor-bLabel div.textbox,.moor-HueLabel div.textbox,.moor-SatuLabel div.textbox,.moor-BrighLabel div.textbox{
+/*float:left;*/
+/*position:relative;*/
+}
+table.adminlist input.text_area{
+width:20px;
+/*margin-top:1px;
+padding-top:2px;*/
+}
+input{line-height:2;}
+input#search{line-height:1;}
+label.moor-hexLabel span.inputboxright{  margin-left: -60px;
+    margin-top: 86px;}
+span.closeright{
+margin-top:30px;
+}
+label.moor-hexLabel div.textbox input.inputbox{
+/*padding-top:3px;*/
+}
+div.buttondiv{
+margin-left:185px;
+}
+div.buttondiv span#closeright div.close1{
+padding-right:0px;
+display:none;
+}
+div.buttondiv span#closeright{
+display:none;
+}
+th span.checkbox{
+margin:-2px 0px 0px 0px;
+}
+form#globalreplace-form span.checkbox{
+position:static;
+padding-right:0px;
+}
+form#globalreplace-form  input.random{margin-left:-20px;}
+div.textbox span.textboxleft {margin-top:0px;}
+.g-title .arrow { float: left;margin-top:8px;}
+.g-title_open .arrow.active {float:left;}
+
+/*div.width-60 fieldset.adminform {
+width:117%;
+position:relative;
+}*/
+
+td.mceToolbar{
+/*position:absolute;*/
+}
+#text_formatselect_text{
+float:left;
+}
+#text_formatselect_open{
+position:absolute;
+margin-top:-11px;
+}
+#text_bold{
+margin-left:10px;
+}
+.mceButton{
+margin-right:0px;
+}
+span.radio{
+cursor:default;
+}
+#organ{
+float:left;
+}
+tr td label span.checkbox{
+/*margin-top:7px;*/
+}
+div#everydayAction{position:absolute;margin-left:20px;}
+div#initialdateAction{position:absolute;}	
+tr.row0 span.textboxleft,tr.row1 span.textboxleft  {position:relative;}
+li.success span.checkbox{position:relative;}
+div#ajxCommandPanel span.randomright{padding-right:0px;}	
+div#ajxCommandPanel span.checkbox{position:relative;}
+fieldset{margin-left:1px;}
+form#globalreplace-form input#jxformcontentfind,form#globalreplace-form input#jxformcontentreplace{width:100%;}
+
+div#menu-pane div.jpane-slider div.textbox span.textboxleft{
+margin-top:4px;
+}

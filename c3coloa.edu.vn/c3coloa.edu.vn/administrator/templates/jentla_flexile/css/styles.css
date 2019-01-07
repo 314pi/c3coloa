@@ -1,0 +1,337 @@
+/**
+* @Jentla Flexile is a fresh new template for the Joomla! Administrator Back-end.
+* @copyright Copyright (C) 2010 ZacWare Pty Ltd. http://jentla.com. [^] All rights reserved.
+* @license GNU/GPL, see license.txt
+* Jentla Flexile is free software. you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version or open source software licenses.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*/
+
+/* @group Accordion */
+
+dl.accordion
+{
+	width: 99.5%;
+	font-weight: bold;
+	font-size:12px;
+	border-left: 1px solid #a7a7a7;
+	border-bottom: 1px solid #a7a7a7;
+	margin: 0px;
+}
+
+/* @group Ebene 1 */
+dl.accordion dt.accordion_toggler_1
+{
+line-height:200%;
+}
+dl.accordion dt
+{
+	position: relative;
+	height: 24px;
+	font-weight: bold;
+	color: black;
+	background: #eaeaea url(icon_accordion_closed.png) no-repeat;
+	
+	cursor: pointer;
+	border-top: 1px solid #B5B5B5;
+}
+
+* html dl.accordion dt
+{
+	cursor: hand;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='icon_accordion_closed.png', sizingMethod='crop');
+	background-image: none;
+}
+
+dl.accordion dt.open
+{
+	background-image: url(icon_accordion_open.png);
+}
+
+* html dl.accordion dt.open
+{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='icon_accordion_open.png', sizingMethod='crop');
+	background-image: none;
+}
+
+dl.accordion dd
+{
+	position: relative;
+	overflow: hidden;
+	background: #fff;
+	margin:0px;
+}
+dl.accordion dd.accordion_content_accordion_content_2
+{
+	border-top: 1px solid #B5B5B5;
+}
+
+/* @group Inhalt */
+
+dl.accordion dd.sub_accordion
+{
+	
+}
+
+dl.accordion dd.accordion_content
+{
+	padding: 0 10px 0 25px;
+}
+
+dl.accordion dd.accordion_content p
+{
+	padding: 5px 0 7px 0;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Ebene 2 */
+
+dl.accordion dd dl dt
+{
+	padding-left: 45px;
+	background-color: #217492;
+	background-position: 20px 0;
+}
+dl.accordion dd dl dd.accordion_content
+{
+	padding-left: 45px;
+}
+
+/* @end */
+
+/* @group Ebene 3 */
+
+dl.accordion dd dl dd dl dt
+{
+	padding-left: 65px;
+	background-color: #509bba;
+	background-position: 40px 0;
+}
+
+dl.accordion dd dl dd dl dd.accordion_content
+{
+	padding-left: 65px;
+}
+
+/* @end */
+
+/* @group Ebene 4 */
+
+dl.accordion dd dl dd dl dd dl dt
+{
+	padding-left: 85px;
+	background-color: #7bc3e4;
+	background-position: 60px 0;
+}
+
+dl.accordion dd dl dd dl dd dl dd.accordion_content
+{
+	padding-left: 85px;
+}
+dl.accordion dd.accordion_content_1 dl dd.accordion_content_accordion_content_2 a
+{
+	font-size:11px;
+	padding-left: 20px;
+	line-height:200%;
+	padding-bottom:3px;
+	padding-top:3px;
+}
+dl.accordion dd.accordion_content_1 dl dd.accordion_content_accordion_content_2
+{
+	
+	line-height:200%;
+}
+dl.accordion dd.accordion_content_1 dl dt.accordion_toggler_2 a,dd.accordion_content_accordion_content_3 a
+{
+	font-size:11px;
+	padding:3px 0px 3px 20px;
+	line-height:200%;
+}
+dl.accordion dd.accordion_content_1 dl dt.accordion_toggler_2
+{
+	padding-left: 0;
+	line-height:200%;
+}
+dl.accordion dd dl dl dd.accordion_content_accodiv#toolbarDiv{float:right;height:30px;position:absolute;}
+rdion_content_3{	
+	line-height:200%;
+}
+dl.accordion dd dl dl dd.accordion_content_accordion_content_3 a{
+	padding-left:20px;
+	line-height:200%;
+}
+dl.accordion dt.accordion_toggler_1 a
+{
+	padding-left: 25px;
+	padding-bottom: 3px;
+}
+
+/* @end */
+
+/* @end */
+dl.accordion dd.accordion_content_2 dl,dl.accordion dd.accordion_content_1 dl{
+	float:left;width:100%;position:relative;top:0;margin:0;
+}
+dl.accordion dt.accordion_toggler_1.open{ border-top:2px solid #000000; }
+dl.accordion dt.accordion_toggler_1.open dd.accordion_content_1{ border-bottom:2px solid #000000 ! important; }
+
+a.mceButtonNormal{
+float:left;
+}
+img.mceSeparatorLine1,img.mceSeparatorLine2,img.mceSeparatorLine3,img.mceSeparatorLine4,img.mceSeparatorLine5,img.mceSeparatorLine6{
+float:left;
+}
+select#mce_editor_0_formatSelect{
+float:left;
+}
+a#text_bold,a#text_italic,a#text_strikethrough,a#text_justifyleft,a#text_justifycenter,a#text_justifyright,a#mce_editor_0_outdent,a#mce_editor_0_undo,a#mce_editor_0_redo,a#mce_editor_0_cleanup,a#text_bullist,a#text_numlist,a#text_outdent,a#text_indent,a#text_undo,a#text_redo,a#text_cleanup,a#text_removeformat,a#text_sup,a#text_sub,a#text_charmap,a#text_formatselect,a#jxform[body]_bold,a#jxform[body]_italic,a#jxform[body]_strikethrough,a#jxform[body]_justifyleft,a#jxform[body]_justifycenter,a#jxform[body]_justifyright,a#jxform[body]_outdent,a#jxform[body]_undo,a#jxform[body]_redo,a#jxform[body]_cleanup,a#jxform[body]_bullist,a#jxform[body]_numlist,a#jxform[body]_outdent,a#jxform[body]_indent,a#jxform[body]_undo,a#jxform[body]_redo,a#jxform[body]_cleanup,a#jxform[body]_removeformat,a#jxform[body]_sup,a#jxform[body]_sub,a#jxform[body]_charmap{
+float:left;
+}
+div#editor-xtd-buttons{
+/*height:41px; */
+}
+span#mce_editor_0_toolbar a{
+float:left;
+}
+fieldset.filter{
+padding:0px;
+}
+#content-strip{
+border-left:none;
+}
+span.mceSeparator{
+-moz-background-clip:border;
+-moz-background-origin:padding;
+-moz-background-size:auto auto;
+background-attachment:scroll;
+background-color:transparent;
+background-image:url("../images/icons.gif");
+background-position:-180px 0;
+background-repeat:repeat;
+display:block;
+height:20px;
+margin-bottom:0;
+margin-left:4px;
+margin-right:2px;
+margin-top:2px;
+width:2px;
+float:left;
+}
+table#text_formatselect{
+float:left;
+margin-top:3px;
+}
+div#spanbutton{
+width:450px;
+}
+.mceButton,.mceListBox,.mceButtonDisabled,.mceButtonSelected{
+float:left;
+}
+ /*textbox*/
+div.textbox{
+	border:none;
+	background: url(../images/search_right.png) no-repeat right top;
+	height:24px;
+	/*float:left;*/
+	display:inline-block;
+	padding-right:6px;
+	position:relative;
+}
+div.textbox .inputbox,div.textbox .text_area,div.textbox .input_box,.moor-rInput,.moor-gInput,.moor-bInput,.moor-HueInput,.moor-BrighInput,.moor-SatuInput,input.readonly{
+	border:none;
+	background: url(../images/search_left.png) no-repeat left top;
+	height:21px;
+	font-family: Arial;
+	background-color:transparent;
+	padding:0 0 0 4px;	
+}
+span.textboxleft{
+background: url(../images/text_left.png) no-repeat left top transparent;
+position:absolute;
+height:21px;
+margin-left:-2px;
+width:6px;
+}
+span#closeright div.close1 span.textboxleft,td.order div.textbox span.textboxleft{
+display:none;
+}
+.moor-rInput,.moor-gInput,.moor-bInput,.moor-HueInput,.moor-BrighInput,.moor-SatuInput{
+width:20px;
+padding-left:5px;
+}
+.moor-rLabel div.textbox,.moor-gLabel div.textbox,.moor-bLabel div.textbox,.moor-HueLabel div.textbox,.moor-SatuLabel div.textbox,.moor-BrighLabel div.textbox{
+float:right;
+}
+.moor-rLabel,.moor-gLabel,.moor-bLabel,.moor-HueLabel,.moor-SatuLabel,.moor-BrighLabel{
+line-height:20px;
+float:left;
+}
+/*textbox*/
+div#mydiv1,div#mydiv2{float:right;margin-top:3px;text-align:right;margin-left:2px;}
+div#mydiv1,div#mydiv2 span{text-align:left;}
+div#toolbarDiv{float:right;height:30px;}
+div#toolbar_form{width:100%;position:absolute;right:10px;z-index:9999;}
+div#toolbar_container{position:absolute;width:100%;top:-30px;}
+#folderview input#folderpath{ width:auto; }
+#folderview input#foldername{ width:auto; }
+.g-title .arrow { background: transparent url(../images/j_arrow.png) no-repeat; padding-left: 20px;}
+.g-title_open .arrow.active {background: transparent url(../images/j_arrow_down.png)  no-repeat; padding-left: 20px;}
+#scorll_up img{
+width:16px;
+}
+.mergeTable td div.wrapper{
+padding:8px 4px 0;
+line-height:19px;
+height:30px !important;
+width:100%;
+}
+body.contentpane form div#toolbar_form {
+position:inherit;
+height:1px;
+}
+div#scorll_down{
+height:22px;
+width:3%;
+float:left;
+}
+div div#scorll_horizontal #scorll_left{
+width:96%;
+float:left;
+}
+#exFieldsTypesDiv{
+width:671px;
+}
+tr td label span.checkbox{
+/*margin-top:3px;*/
+}
+span#text_parent{
+/*float:left;*/
+}
+#editor-xtd-buttons{height:45px;}
+input#search{
+	background:none;
+}
+input#search[value=""]{
+	background:url(../images/search.png) no-repeat 4px 2px;
+}
+input#search.searchInputBox{
+	background:url(../images/search.png) no-repeat 4px 2px;
+}
+input#search.Emptysearch{
+	background:none;
+}
+fieldset#desc{
+width:560px;
+}
+form#category-form div.current{
+width:99%;
+}

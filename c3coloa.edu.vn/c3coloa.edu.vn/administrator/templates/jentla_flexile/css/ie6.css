@@ -1,0 +1,43 @@
+/**
+* @Jentla Flexile is a fresh new template for the Joomla! Administrator Back-end.
+* @copyright Copyright (C) 2010 ZacWare Pty Ltd. http://jentla.com. [^] All rights reserved.
+* @license GNU/GPL, see license.txt
+* Jentla Flexile is free software. you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version or open source software licenses.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*/
+
+/* CSS Document */
+
+div#toolbar-box {
+  float: left;
+  width: 100%;
+}
+
+#minwidth, #minwidth-body {width:expression(document.body.clientWidth <= 960? "960px": "auto"); }
+
+#content-box {
+	float: left;
+}
+
+input { border-width: expression(this.type=="radio"?'0px':this.type=="checkbox"?'0px':'1px'); }
+
+#module-status .no-unread-messages .no-of-msgs,#module-status .unread-messages .no-of-msgs{
+	background:url('../icons/unreadmessage.png') no-repeat;
+	border:none;text-align:center;width:10px;height:20px;
+	padding-left:7px;padding-top:4px;
+}
+div.fe,div.be{
+	background:url('../icons/logged_users_box.png') no-repeat;
+	border:none;margin-top:2px;float:left;
+}
+.fe div,.be div{
+	background:url('../icons/logged_users_box_count.png') no-repeat;
+	border:none;margin-top:2px;height:12px;width:14px;
+}

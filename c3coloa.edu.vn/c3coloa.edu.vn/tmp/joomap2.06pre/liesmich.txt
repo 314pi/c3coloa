@@ -1,0 +1,65 @@
+Joomap 2.0 von Daniel Grothe / http://www.ko-ca.com
+Zusätzlicher Code und deutsche Version: mic / http://www.mgfi.info
+>> Eine Seitenübersichtskomponente für Joomla! CMS (www.joomla.org)
+Lizenz: GNU/GPL http://www.gnu.org/copyleft/gpl.html
+
+Anforderungen: 
+ * Joomla! CMS >= v1.0.0
+ * PHP >= v4.2.0
+ * MySQL >= v.3.23.x
+
+Die Joomla!Forge Projekt Webseite liegt auf:
+http://developer.joomla.org/sf/sfmain/do/viewProject/projects.joomap
+
+================================
+
+*****************************
+Installation (Neu)
+*****************************
+1. Joomap als Komponente im Backend mit dem Installer -> Komponenten installieren
+2. Joomap konfigurieren
+3. In einem Menü nach Wahl den Link zu Joomap generieren
+ -> fertig!
+
+*****************************
+Installation (Update)
+*****************************
+Version 2.0:
+* Joomap 2.0 ist eine Neuentwicklung, daher Installation wie unter NEU
+
+*****************************
+PlugIns
+*****************************
+Durch PlugIns lassen sich weitere Komponenten in Joomap einfachst einbinden.
+PlugIns enden mit '.plugin.php' und sind im Verzeichnis
+"/administrator/components/com_joomap/plugins/" zu plazieren.
+Als Beispiele werden die Joomla! Inhalte (Artikel) durch das PlugIn 'content.plugin.php'
+abgewickelt.
+
+****************************
+Google sitemaps
+****************************
+Google SiteMaps bieten dem Webmaster eine einfache Möglichkeit immer mit aktuellen
+Links der eigenen Webseite innerhalb Google vertreten zu sein.
+Joomap generiert automatisch die aktuellen Links.
+
+Um die eigene Webseite für diesen Service bei Google anzumelden, sind folgende
+Schritte nowendig:
+
+* Kostenlose Kontoeröffnung bei Google SiteMaps: http://www.google.com/webmasters/sitemaps/login
+* Den von Joomap generierten Link (siehe Joomap Konfiguration) im Googleaccount angeben
+ > fertig!
+
+*******************************
+CSS Styles
+*******************************
+
+Joomap verwendet eine eigene CSS-Klasse, der Name ist im Joomap-Backend anzugeben.
+Diese CSS-Klasse kann bequem in der Joomap-Konfiguration bearbeitet werden.
+
+* Generell wird Joomap innerhalb <div class="sitemap"> eingebunden.
+* Der Seitebaum hat für jeden Ebene eine eigene CSS-Klasse, beginnend
+  mit: "level_0" (root) und dann "level_1", "level_2", ... etc.
+* Wird mehr als eine (1) Kolonne im Joomap Backend angegeben, werden für
+  jede Kolonne 'inline-styles' verwendet. Möglicherweise müssen vorhandene
+  Templates angepasst werden.

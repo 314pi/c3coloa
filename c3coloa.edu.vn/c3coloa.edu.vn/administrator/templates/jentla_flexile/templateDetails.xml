@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/template-install.dtd">
+<install version="1.5" type="template" client="administrator">
+        <name>Jentla_Flexile</name>
+        <creationDate>29-04-2011</creationDate>
+        <author>Zacware</author>
+        <authorEmail>admin@zac-ware.com</authorEmail>
+        <authorUrl>http://www.zac-ware.com</authorUrl>
+        <copyright>ZacWare Pt Ltd</copyright>
+		<license>GPLv2</license>
+        <version>15.1.8</version>
+		<description>Jentla Flexile, a new vision for Joomla Administration</description>
+        <files>
+			<filename>index.html</filename>
+			<filename>license.txt</filename>
+			<filename>params.ini</filename>
+			<filename>restore.ini</filename>
+			<filename>index.php</filename>		
+			<filename>templateDetails.xml</filename>
+			<filename>template_thumbnail.png</filename>
+			<filename>bgimage.php</filename>
+			<filename>component.php</filename>
+			<filename>cpanel.php</filename>		
+			<filename>css_styles.php</filename>		
+			<filename>error.php</filename>		
+			<filename>favicon.ico</filename>		
+			<filename>gradient.php</filename>		
+			<filename>login.php</filename>		
+			<folder>admin</folder>
+			<folder>css</folder>
+			<folder>html</folder>
+			<folder>images</folder>
+			<folder>icons</folder>
+			<folder>js</folder>
+        </files>
+        <positions>
+		<position>menu</position>
+		<position>submenu</position>
+		<position>toolbar</position>
+		<position>title</position>
+		<position>status</position>
+		<position>icon</position>
+		<position>cp_shell</position>
+		<position>cpanel</position>
+		<position>debug</position>
+        </positions>
+	<params addpath="/administrator/templates/jentla_flexile/admin/elements">
+			<!--Template -->
+<param name="presets4" type="jfspacer" default="" description="" label=" " glabel="Template" />
+           <param name="headerfadefrom" type="colorchooser" default="#5b646d" position="left" label="HEADER FADE FROM" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Specify the header fadefrom colour"/>
+			<param name="headerfadeto" type="colorchooser" default="#262b36" position="left" label="HEADER FADE TO" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Specify the header fadeto colour"/>
+            <param name="footerfadefrom" type="colorchooser" default="#fdfdfd" position="left" label="FOOTER FADE FROM" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Specify the footer fadefrom colour"/>
+			<param name="footerfadeto" type="colorchooser" default="#cccccc" position="left" label="FOOTER FADE TO" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Specify the footer fadeto colour"/>
+			<!--ToolBar -->
+<param name="presets5" type="jfspacer" default="" description="" label=" " glabel="ToolBar" />
+			<param name="toolbarfadefrom" type="colorchooser" default="#f7f8fd" position="left" label="TOOLBAR FADE FROM" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Specify the toolbar fadefrom colour"/>
+            <param name="toolbarfadeto" type="colorchooser" default="#cdcdcd" position="left" label="TOOLBAR FADE TO" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Specify the toolbar fadefrom colour"/>
+			<!--Article - Table -->
+<param name="presets6" type="jfspacer" default="" description="" label=" " glabel="Article Manager" />
+			<param name="articleheaderbg" type="colorchooser" default="#424242" position="left" label="ArticleHeaderBg" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which background color will be used for table header"/>
+			<param name="articletitle" type="colorchooser" default="#D4D4D4" position="left" label="ArticleTitle" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which color will be used for the table's heading"/>
+			<param name="linkcolor" type="colorchooser" default="#366F9A" position="left" label="ArticleLinkColor" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which color will be used for links inside the table"/>	
+			<param name="articlerow0" type="colorchooser" default="#FFFFFF" position="left" label="ArticleRow0" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which background color will be used for table's odd rows"/>
+			<param name="articlerow1" type="colorchooser" default="#FFFFFF" position="left" label="ArticleRow1" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which background color will be used for table's even rows"/>
+			<param name="articlerow0hover" type="colorchooser" default="#CCDCE9" position="left" label="ArticleRow0Hover" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which background color will be used for table's odd rows on mouse over"/>
+			<param name="articlerow1hover" type="colorchooser" default="#CCDCE9" position="left" label="ArticleRow1hover" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which background color will be used for table's even rows on mouse over"/>
+			<param name="showicons" type="radio" default="0" label="Show Icons" description="Display Icons">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<!--Legend -->
+<param name="presets7" type="jfspacer" default="" description="" label=" " glabel="Legend Styling"/>
+			<param name="legend" type="colorchooser" default="#CACACA" position="left" label="Legend" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which color will be used for all the legend's title"/>			
+			<param name="bordercolor" type="colorchooser" default="#CACACA" position="left" label="BorderColor" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which color will be used for all the legend's border"/>
+
+			<!--InputBox -->
+<!--<param name="presets8" type="jfspacer" default="" description="" label=" " glabel="InputBox Styling"/>-->
+			<param name="inputboxbg" type="colorchooser" default="#EBEBEB" position="left" label="InputBoxBg" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which background color will be used for all the input box"/>
+			<param name="inputboxfocus" type="colorchooser" default="#CACACA" position="left" label="InputBoxFocus" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which background color will be used for all the input box on focus"/>
+			<param name="inputbox" type="colorchooser" default="#1E1E1E" position="left" label="InputBox" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which color will be used for all the input box caption"/>
+			<param name="inputboxborder" type="colorchooser" default="#919191" position="left" label="InputBoxBorder" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which color will be used for all the text box border"/>
+			<!--Left Menu -->
+<param name="presets9" type="jfspacer" default="" description="" label=" " glabel="LeftMenu Styling"/>
+			<param name="leftMenuLinkColor1" type="colorchooser" default="#000000" position="left" label="Level-1 Link" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which color will be used for links in the left menu at Level 1"/>
+			<param name="leftMenuLinkBackColor1" type="colorchooser" default="#99999B" position="left" label="Level-1 BG" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which background color will be used in the left menu at Level 1"/>	
+			<param name="leftMenuOpenLinkColor1" type="colorchooser" default="#000000" position="left" label="Level-1 Link On Open" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which color will be used in left menu at Level 1 Link on open"/>			
+			<param name="leftMenuOpenBGColor1" type="colorchooser" default="#ABABAB" position="left" label="Level-1 BG On Open" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which background color will be used in left menu at Level 1 on open"/>
+			<param name="leftMenuLinkColor2" type="colorchooser" default="#000000" position="left" label="Level-2 Link" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which color will be used for links in the left menu at Level 2"/>
+			<param name="leftMenuLinkBackColor2" type="colorchooser" default="#C5C5C5" position="left" label="Level-2 BG" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which background color will be used in the left menu at Level 2"/>
+			<param name="leftMenuLinkOpenBackColor2" type="colorchooser" default="#DAD8D9" position="left" label="Level-2 BG On Open" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which background color will be used in the left menu at Level 2 while open"/>
+			<param name="leftMenuLinkColor3" type="colorchooser" default="#000000" position="left" label="Level-3 Link" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which color will be used for links in the left menu at Level 3"/>
+			<param name="leftMenuLinkBackColor3" type="colorchooser" default="#EBE9E7" position="left" label="Level-3 BG" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which background color will be used in the left menu at Level 3"/>
+			<param name="leftMenuLinkOpenColor" type="colorchooser" default="#FFFFFF" position="left" label="Menu BG ON OPEN" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which link color will be used in the left menu while open"/>
+			<param name="leftMenuOpenColor" type="colorchooser" default="#246BA1" position="left" label="Menu BG ON OPEN" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which background color will be used in the left menu while open"/>
+
+			<!--Label Box -->
+<param name="presets9" type="jfspacer" default="" description="" label=" " glabel="LabelBox Styling"/>
+			<param name="labelboxbg" type="colorchooser" default="#FFFFFF" position="left" label="LabelBoxBg" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which background color will be used for all the label box"/>
+			<param name="labelboxtitle" type="colorchooser" default="#505050" position="left" label="LabelBoxTitle" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which color will be used for all the label box caption"/>
+
+			<!--Button -->
+<param name="presets10" type="jfspacer" default="" description="" label=" " glabel="Button Styling"/>
+			<param name="buttonbg" type="colorchooser" default="#F3F3F3" position="left" label="ButtonBg" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which background color will be used for all the buttons"/>
+			<param name="buttontitle" type="colorchooser" default="#565656" position="left" label="ButtonTitle" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Determines which color will be used for all the button's caption"/>
+
+			<!--Login Page-->
+<param name="presets11" type="jfspacer" default="" description="" label=" " glabel="LoginPage Styling"/>
+			<param name="loginpagefadefrom" type="colorchooser" default="#AABAC7" position="left" label="LoginPage Fade From" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Specify the login page fade from color"/>
+			<param name="loginpagefadeto" type="colorchooser" default="#FFFFFF" position="left" label="LoginPage Fade To" setinsession="true" setbysession="true" setincookie="true" setbycookie="true" description="Specify the login page fade out color"/>		
+<param name="presets" type="jfspacer" default="" description="" label=" " glabel="Restore Defaults" />
+			<param name="restore" type="radio" default="0" label="Restore Defaults" description="Restore Defaults">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			
+</params>
+</install>
